@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 14px;
+}
+
+body {
+    box-sizing: border-box;
+}
+
+.main {
+    background-image: linear-gradient(to top, #e2d9e3, rgb(117, 73, 121) ) ;
+    margin: 1rem 3rem;
+    padding: 3rem;
+}
+
+.nav {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    transition: all .8s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.nav-item {
+    margin-right: 2rem;
+    margin-top: -1rem;
+}
+
+.nav-link:link,
+.nav-link:visited {
+    display: inline-block;
+    font-size: 1.8rem;      
+    font-weight: 400;
+    padding: 1rem 2rem;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-image: linear-gradient(120deg, transparent 0%, transparent 50%, #fff 50%);
+    background-size: 240%;
+    transition: all .4s;
+}
+
+.nav-pills .nav-link.active, 
+.nav-pills .show>.nav-link {
+    display: inline-block;
+    font-size: 1.8rem;      
+    font-weight: 400;
+    padding: 1rem 2rem;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-image: linear-gradient(120deg, transparent 0%, transparent 50%, #fff 50%);
+    background-size: 240%;
+    transition: all .4s;
+    background-color: transparent;
+    
+}
+.nav-pills .nav-link:hover,
+.nav-pills .nav-link:active {
+    background-position: 100%;
+    color: rgba(72, 72, 139);
+    transform: translateX(1rem); 
+}
+
+.dropdown-menu {
+    background-color: #9f81a9;
+    color: #fff;
+    border: none;
+    font-size: 1.2rem;
+    padding: 1.6rem 0;
+}
+.dropdown-menu.show {
+    box-shadow: 2rem 2rem 4rem rgb(0, 0, 0, 0.15);
+}
+
+.dropdown-item {
+    color: #fff;
+    padding: .4rem 1.5rem;
+}
+
+.dropdown-item:focus, 
+.dropdown-item:hover {
+    color: rgba(72, 72, 139);
+}
+
+.container {
+    margin-top: 8rem;
+}
+.heading {
+   text-align: center;
+   text-transform: uppercase;
+   margin-bottom: 0;
+   width: 80%;
+   margin: 0 auto;
+   margin-top: 8rem;
+   margin-bottom: 9rem;
+}
+h1,
+span {
+    font-size: 3.8rem;
+    font-weight: 500;
+    letter-spacing: .3rem;
+    background-image: linear-gradient(to right, 
+    rgba(252, 252, 252, 0.918), 
+    rgba(161, 110, 175, 0.781) );
+    -webkit-background-clip: text;
+    color: transparent;
+}
+  
+.btn-primary {
+    margin-top: 1rem;
+    background-color: rgb(117, 73, 121);
+    color: #fff;
+    border-color: rgb(117, 73, 121);
+}
+.btn-primary:hover {
+    background-color: #fff;
+    color: rgb(117, 73, 121);
+    border-color: rgb(117, 73, 121);
+}
+
+.card {
+    font-size: 1.2rem;
+    border: 1px solid rgb(194, 168, 197);
+    box-shadow:  0 1.5rem 4rem rgb(0, 0, 0, 0.15);
+    margin: 0 auto;
+    height: auto;
+}
+
+.card-link {
+    color: rgb(117, 73, 121);
+}
+.card-link:hover {
+    color: rgb(66, 41, 68);
+}
+.card-title {
+    font-size: 1.5rem;
+    color: rgb(117, 73, 121);
+    text-transform: uppercase;
+    margin-bottom: 1.3rem;
+}
